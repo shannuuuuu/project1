@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+  <html>
+  <head>
+     <meta name="viewport" content="with=device-width, initial-scale=1.0">
+      <title>University Wedsite Design - Easy Tutorials</title>
+      <link rel="stylesheet" href="style.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+</head>
+<body>
+<section class="sub-header">
+    <nav>
+        <a href="index.html"><img src="images/logo.png.png"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMemu()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="login.html">LOGIN</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="course.html">COURSE</a></li>
+                <li><a href="blog.html">BLOG</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </div> 
+        <i class="fa fa-bars" onclick="showMemu()"></i>  
+    </nav>
+    <h1>About Us</h1>
+</section>
+
+<!----------about us content ---------->
+
+<section class="about-us">
+
+    <div class="row">
+        <div class="about-col">
+            <h1>We are the world's largest university</h1>
+            <p>Lorem ipsum dolar sit amet, consectetur adipiscing faucibus est sollicitudin ut. Maecenas ut venenatis ex, et dapibus purus. Donec sit amet nisl non justo malesuada fermentum. Donec eget felis dolor. Suspendisse condimentum vestibulum ex ac cursus. Nam pharetra viverra efficitur. Sed pellentesque luctus arcu, quis finibus nibh luctus mattis.</p>
+            <a href="" class="hero-btn reb-btn">EXPLORE NOW</a>
+        </div>
+        <div class="about-col">
+            <img src="images/about.png.jpg">
+        </div>
+    </div>
+
+</section>
+
+<!-- --- Footer -------->
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Lorem ipsum dolor sit amet,consectetur adipiscing elit.
+    pellentesque aliquet turpis nulla, eleifend faucibus est<br>sollicitudin ut. Maecenas ut venenatis ex,et dapibus purus.</p>
+    <div class="icons">
+        <i class="fa fa-facebook-official"></i>
+        <i class="fa fa-twitter-square" aria-hidden="true"></i>
+        <i class="fa fa-instagram" aria-hidden="true"></i>
+         <i class="fa fa-linkedin" aria-hidden="true"></i> 
+     </div>
+     <p>Made With <i class="fa fa-heart-o"></i> by East Tutorials</p>
+
+    
+</section>
+
+
+<!---------JavaScript for Toggle Menu------->
+<script>
+
+        var navLinks = document.getElementById("navLinks"); 
+        function showMemu(){
+            navLinks.style.right ="0";
+        }
+        function hideMemu(){
+            navLinks.style.right = "-200px";
+        }
+
+      </script>
+  
+  </body>
+  </html>
